@@ -32,7 +32,7 @@ public class Main {
          * Sınıftaki kişilerin numaraları ve cinsiyetlerini biliyorum.
          * bu sınıftaki kızların ve erkeklerin numaralarını ayrı ayrı ekrana yazdıran program.
          */
-        Classroom stu1 = new Classroom('E');
+        Classroom stu1 = new Classroom('E'); // Numaralar Classroom sınıfı içerisinde random olarak oluşturulacaktır.
         Classroom stu2 = new Classroom('K');
         Classroom stu3 = new Classroom('E');
         Classroom stu4 = new Classroom('K');
@@ -43,7 +43,7 @@ public class Main {
         Classroom stu9 = new Classroom('K');
         Classroom stu10 = new Classroom('E');
 
-        Classroom.showBoysID();
+        Classroom.showBoysID(); // Otomatik olarak oluşturulan numaralar, cinsiyet esasına göre yazdırılır
         Classroom.showGirlsID();
 
         /**
@@ -53,7 +53,7 @@ public class Main {
          * Korku filmi seçilmişse ekstra % 10 indirim.
          */
 
-        discount(21, 42.5, "Korku");
+        discount(21, 42.5, "Korku"); // Parametre sıralaması yaş, bilet ücreti ve film türü olmak üzere discount metodu oluşturulmuştur.
         discount(15, 42.5, "Korku");
         discount(65, 42.5, "Korku");
         discount(17, 42.5, "Korku");

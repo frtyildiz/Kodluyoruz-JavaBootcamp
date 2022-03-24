@@ -2,13 +2,15 @@ package secondWeek.hw1;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+         * Manav dükkanı açmak isteyen bir adam hal'den bir miktar elma, bir miktar armut, bir miktar kiraz
+         * alacaktır. Mallar dükkana gelmiştir. Kullanıcı bu malları ayrı odalarda saklayacaktır.
+         */
         Apple a1 = new Apple("Elma", 12, 10.2);
         Pear p1 = new Pear("Armut", 21, 12.1);
         Cherry c1 = new Cherry("Kiraz", 13, 24.0);
 
         /*
-         * Manav dükkanı açmak isteyen bir adam hal'den bir miktar elma, bir miktar armut, bir miktar kiraz
-         * alacaktır. Mallar dükkana gelmiştir. Kullanıcı bu malları ayrı odalarda saklayacaktır.
          * Her bir odadaki elma, armut ve kirazın kg cinsinden değerini bulalım.
          */
 
