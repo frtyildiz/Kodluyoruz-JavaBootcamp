@@ -1,4 +1,4 @@
-package secondWeek.Homework2;
+package secondWeek.Assignment2;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ public class Main {
          * bu sınıftaki kızların ve erkeklerin numaralarını ayrı ayrı ekrana yazdıran program.
          */
         Classroom stu1 = new Classroom('E'); // Numaralar Classroom sınıfı içerisinde random olarak oluşturulacaktır.
-        Classroom stu2 = new Classroom('K');
+        Classroom stu2 = new Classroom('K'); // Kızlar için K ve erkekler için E harfleri cinsiyet belirleyicisi olarak kullanıldı.
         Classroom stu3 = new Classroom('E');
         Classroom stu4 = new Classroom('K');
         Classroom stu5 = new Classroom('K');

@@ -1,4 +1,4 @@
-package secondWeek.Homework1;
+package secondWeek.Assignment1;
 
 public class Cherry extends Fruit{
 

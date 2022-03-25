@@ -1,4 +1,4 @@
-package secondWeek.Homework2;
+package secondWeek.Assignment2;
 
 import java.util.ArrayList;
 
@@ -9,10 +9,10 @@ public class Classroom {
     static ArrayList<Integer> menNumbers = new ArrayList<>();
 
     public Classroom(char gender) {
-        this.id = (int) (Math.random() * 100);
+        this.id = (int) (Math.random() * 100); // Oluşturulan her Classroom nesnesi için random bir numara üretilir
         this.gender = gender;
 
-        if (gender == 'E')
+        if (gender == 'E') // Cinsiyet erkek (E) ise menNumbers değilse womenNumbers listesine aktarılır
             menNumbers.add(this.id);
         else
             womenNumbers.add(this.id);
@@ -23,7 +23,7 @@ public class Classroom {
     }
 
     public void setId(int id) {
-        if (id == this.getId())
+        if (id == this.getId()) // Random olarak oluşturulan numara daha önce oluşturulduysa tekrar random bir numara üretilir.
             this.id = (int) (Math.random() * 100);
         else
             this.id = id;
@@ -34,7 +34,6 @@ public class Classroom {
     }
 
     public void setGender(char gender) {
-
         this.gender = gender;
     }
 
