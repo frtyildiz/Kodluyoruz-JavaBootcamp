@@ -1,4 +1,4 @@
-package secondWeek.Assignment1;
+package secondWeek.ch01Greengrocer;
 
 public class Apple extends Fruit{
 
