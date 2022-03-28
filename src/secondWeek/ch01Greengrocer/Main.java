@@ -1,4 +1,4 @@
-package secondWeek.ch01Greengrocer;
+package SecondWeek.ch01Greengrocer;
 
 public class Main {
     public static void main(String[] args) {

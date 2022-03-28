@@ -1,4 +1,4 @@
-package secondWeek.ch02Homework;
+package SecondWeek.ch02Homework;
 
 import java.util.ArrayList;
 

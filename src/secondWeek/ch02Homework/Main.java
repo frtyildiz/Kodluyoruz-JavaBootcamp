@@ -1,4 +1,4 @@
-package secondWeek.ch02Homework;
+package SecondWeek.ch02Homework;
 
 public class Main {
     public static void main(String[] args) {
