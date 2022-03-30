@@ -1,4 +1,4 @@
-package SecondWeek.ch01Greengrocer;
+package e2SecondWeek.ch01Greengrocer;
 
 public abstract class Fruit {
 

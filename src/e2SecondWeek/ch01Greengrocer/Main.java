@@ -1,9 +1,9 @@
-package SecondWeek.ch01Greengrocer;
+package e2SecondWeek.ch01Greengrocer;
 
 public class Main {
     public static void main(String[] args) {
         /*
-         * Manav dükkanı açmak isteyen bir adam hal'den bir miktar elma, bir miktar armut, bir miktar kiraz
+         * Manav dükkanı açmak isteyen bir adam halden bir miktar elma, bir miktar armut, bir miktar kiraz
          * alacaktır. Mallar dükkana gelmiştir. Kullanıcı bu malları ayrı odalarda saklayacaktır.
          */
         Apple a1 = new Apple("Elma", 12, 10.2);
