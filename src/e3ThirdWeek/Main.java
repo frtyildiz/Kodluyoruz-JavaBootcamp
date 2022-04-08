@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Flight> flights = new ArrayList<>(); // Oluşturulacak olan tüm uçuşları içeren ArrayList
 
+        // Uçuş oluşturma parametreleri sırasıyla kalkış yeri, varış yeri, yolcu kapasitesi, bilet ücreti, uçuş tarihi ve uçuş saati olarak düzenlenmiştir.
         THY thy = new THY("İstanbul", "Dublin", 250, 2523.5, LocalDate.parse("2022-08-24"), LocalTime.parse("11:11"));
         flights.add(thy);
 
@@ -27,9 +28,9 @@ public class Main {
             System.out.println("5- Tüm Uçuşları Listele");
             System.out.println("6- Çıkış");
             System.out.print("Lütfen Yapmak İstediğiniz İşlemi Seçiniz: ");
-            int choose = sc.nextInt();
+            int choice = sc.nextInt();
 
-            if (choose == 1)
+            if (choice == 1)
             {
                 System.out.print("Adınız: ");
                 String name = sc.next();
@@ -45,7 +46,7 @@ public class Main {
 
                 thy.reservationTicket(name, lastname, ticketCount, isBusiness);
             }
-            else if (choose == 2)
+            else if (choice == 2)
             {
                 System.out.print("Adınız: ");
                 String name = sc.next();
@@ -61,20 +62,20 @@ public class Main {
 
                 pgs.reservationTicket(name, lastname, ticketCount, isBusiness);
             }
-            else if (choose == 3)
+            else if (choice == 3)
             {
                 THY.showTHYPassengers();
             }
-            else if (choose == 4)
+            else if (choice == 4)
             {
                 Pegasus.showPegasusPassengers();
             }
-            else if (choose == 5)
+            else if (choice == 5)
             {
                 for (Flight flight : flights)
                     System.out.println(flight);
             }
-            else if (choose == 6)
+            else if (choice == 6)
             {
                 return;
             }
