@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class THY extends Flight implements IAirlines {
+public class THY extends Flight {
     static List<String> passengers = new ArrayList<>(); // Eklenen tüm yolcuları kaydetmek için ArrayList kullandım
     private String name;
     private String lastname;
@@ -24,9 +24,7 @@ public class THY extends Flight implements IAirlines {
         super.setDate(_date);
         super.setTime(_time);
 
-        int randomNo = (int) (Math.random() * 100000);
-        String flightNo = "TK" + randomNo;
-        super.setFlightID(flightNo); // Uçuş numarası random olarak tanımlandı
+        super.flightNo("TK"); // flightNo metodu, THY uçuşları için TK ile başlayan ve random sayısal değerler içeren (TK11111 gibi) bir uçuş kodu oluşturacaktır.
     }
 
     @Override
@@ -54,7 +52,7 @@ public class THY extends Flight implements IAirlines {
         else
         {
             this.setCurrentPassengerCount(_ticketCount); // Alınan bilet sayısı mevcut yolcu sayısına eklendi
-            String ticketNo = (int) (Math.random() * 1000000) + "/C"; // Biletin unique bir seri numarası oluşacak
+            String ticketNo = super.ticketNo("C"); // Biletin sayısal değerlerle başlayan ve /C ile sonlanan unique bir seri numarası oluşacak
 
             if (isBusiness && this.getBusinessSeatCapacity() > _ticketCount)
             {

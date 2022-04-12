@@ -3,7 +3,7 @@ package e3ThirdWeek;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public abstract class Flight {
+public abstract class Flight implements IAirlines{
     private int capacity;
     private double fare;
     private String flightID;
@@ -12,20 +12,24 @@ public abstract class Flight {
     private LocalDate date;
     private LocalTime time;
 
-    public abstract void reservationTicket(String _name, String _lastname, int _ticketCount, String _isBusiness);
-
     abstract double totalTicketPrice();
+    public abstract void reservationTicket(String _name, String _lastname, int _ticketCount, String isBusiness);
 
-    public String getFrom() {
-        return from;
+    public void flightNo(String flightCode) // flightNo metodu ile havayolu şirketlerinin uçuşları için parametre olarak verilecek karakter kodu ile başlayan uçuk kodu (parametre TK ise TK123123 gibi) üretilecektir.
+    {
+        int randomNo = (int) (Math.random() * 100000);
+        String flightNo = flightCode + randomNo;
+        setFlightID(flightNo);
+    }
+
+    public String ticketNo (String ticketCode)
+    {
+        String ticketNo = (int) (Math.random() * 1000000) + "/" + ticketCode; // Müşteriler için gelen bilet koduna göre (111111111/C gibi) bilet numarası oluşturacaktir
+        return ticketNo;
     }
 
     public void setFrom(String from) {
         this.from = from;
-    }
-
-    public String getTo() {
-        return to;
     }
 
     public void setTo(String to) {
@@ -46,10 +50,6 @@ public abstract class Flight {
 
     public void setFare(double fare) {
         this.fare = fare;
-    }
-
-    public String getFlightID() {
-        return flightID;
     }
 
     public LocalDate getDate() {

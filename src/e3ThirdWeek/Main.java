@@ -32,35 +32,11 @@ public class Main {
 
             if (choice == 1)
             {
-                System.out.print("Adınız: ");
-                String name = sc.next();
-
-                System.out.print("Soyadınız: ");
-                String lastname = sc.next();
-
-                System.out.print("Almak İstediğiniz Bilet Sayısı: ");
-                int ticketCount = sc.nextInt();
-
-                System.out.print("Business Class Bilet için B, Standart Bilet için S Yazınız: ");
-                String isBusiness = sc.next();
-
-                thy.reservationTicket(name, lastname, ticketCount, isBusiness);
+                setInfo(thy); // setInfo metodu müşteri bilgilerini isim, soyisim, almak istenen bilet sayısı ve koltuk class'ı şeklinde alarak THY uçuşu için müşteri kaydı oluşturacaktır. Metot aşağıdan incelenebilir.
             }
             else if (choice == 2)
             {
-                System.out.print("Adınız: ");
-                String name = sc.next();
-
-                System.out.print("Soyadınız: ");
-                String lastname = sc.next();
-
-                System.out.print("Almak İstediğiniz Bilet Sayısı: ");
-                int ticketCount = sc.nextInt();
-
-                System.out.print("Business Class Bilet için B, Standart Bilet için S Yazınız: ");
-                String isBusiness = sc.next();
-
-                pgs.reservationTicket(name, lastname, ticketCount, isBusiness);
+                setInfo(pgs); // setInfo metodu müşteri bilgilerini isim, soyisim, almak istenen bilet sayısı ve koltuk class'ı şeklinde alarak Pegasus uçuşu için müşteri kaydı oluşturacaktır. Metot aşağıdan incelenebilir.
             }
             else if (choice == 3)
             {
@@ -80,7 +56,24 @@ public class Main {
                 return;
             }
         }
+    }
 
+    public static void setInfo(Flight object)
+    {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.print("Adınız: ");
+        String name = sc.next();
+
+        System.out.print("Soyadınız: ");
+        String lastname = sc.next();
+
+        System.out.print("Almak İstediğiniz Bilet Sayısı: ");
+        int ticketCount = sc.nextInt();
+
+        System.out.print("Business Class Bilet için B, Standart Bilet için S Yazınız: ");
+        String isBusiness = sc.next();
+
+        object.reservationTicket(name, lastname, ticketCount, isBusiness);
     }
 }
