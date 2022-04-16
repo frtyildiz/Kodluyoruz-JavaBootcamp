@@ -8,11 +8,11 @@ import java.util.List;
 public class Pegasus extends Airlines{
     Pegasus(String _from, String _to, int _capacity, double _fare, LocalDate _date, LocalTime _time) {
         super(_from, _to, _capacity, _fare, _date, _time);
-        super.flightNo("PNR");
+        super.flightNo("PNR"); // Oluşturulan her THY uçuşu için PNR ile başlayan random bir numara üretilecektir.
     }
 
     static List<String> PegasusPassengers = new ArrayList<>();
-    String ticketNo = super.ticketNo("N");
+    String ticketNo = super.ticketNo("N"); // THY uçuşu için bilet alan her yolcu için sonu '/N' ile biten random bir bilet numarası oluşturulacaktır.
 
     @Override
     public void reservationTicket(String _name, String _lastname, int _ticketCount, String _isBusiness) {
@@ -24,7 +24,7 @@ public class Pegasus extends Airlines{
     public static void showPegasusPassengers()
     {
         if (PegasusPassengers.isEmpty())
-            System.out.println("Pegasus Kayıt Bulunamadı.\n");
+            System.out.println("Pegasus Uçuşu için Herhangi Bir Yolcu Kayıdı Bulunamadı.\n");
         else
         {
             for (String passenger : PegasusPassengers)
