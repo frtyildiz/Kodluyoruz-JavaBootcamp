@@ -32,11 +32,11 @@ public class Main {
 
             if (choice == 1)
             {
-                setInfo(thy); // setInfo metodu müşteri bilgilerini isim, soyisim, almak istenen bilet sayısı ve koltuk class'ı şeklinde alarak THY uçuşu için müşteri kaydı oluşturacaktır. Metot aşağıdan incelenebilir.
+                setInfo(thy); // setInfo metodu müşteri bilgilerini isim, soyisim, almak istenen bilet sayısı ve koltuk class'ı şeklinde alarak Airlines uçuşu için müşteri kaydı oluşturacaktır. Metot aşağıdan incelenebilir.
             }
             else if (choice == 2)
             {
-                setInfo(pgs); // setInfo metodu müşteri bilgilerini isim, soyisim, almak istenen bilet sayısı ve koltuk class'ı şeklinde alarak Pegasus uçuşu için müşteri kaydı oluşturacaktır. Metot aşağıdan incelenebilir.
+                setInfo(pgs); // setInfo metodu müşteri bilgilerini isim, soyisim, almak istenen bilet sayısı ve koltuk class'ı şeklinde alarak a uçuşu için müşteri kaydı oluşturacaktır. Metot aşağıdan incelenebilir.
             }
             else if (choice == 3)
             {
@@ -58,7 +58,7 @@ public class Main {
         }
     }
 
-    public static void setInfo(Flight object)
+    public static void setInfo(Airlines object)
     {
         Scanner sc = new Scanner(System.in);
 

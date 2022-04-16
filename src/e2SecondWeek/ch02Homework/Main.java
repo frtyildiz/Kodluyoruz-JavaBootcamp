@@ -3,7 +3,7 @@ package e2SecondWeek.ch02Homework;
 public class Main {
     public static void main(String[] args) {
         /**
-         * 1'den 10 a kadar olan sayılar içerisinde 2 ile tam bölünenleri ekrana yazdır.
+         * 1'den 10 THY kadar olan sayılar içerisinde 2 ile tam bölünenleri ekrana yazdır.
          */
         for (int i = 1; i <= 11; i++)
         {
