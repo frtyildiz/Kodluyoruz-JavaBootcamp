@@ -16,7 +16,7 @@ public class Pegasus extends Airlines{
 
     @Override
     public void reservationTicket(String _name, String _lastname, int _ticketCount, String _isBusiness) {
-        super.reservationTicket(_name, _lastname, _ticketCount, _isBusiness); // flightNo metodu, Airlines uçuşları için TK ile başlayan ve random sayısal değerler içeren (TK11111 gibi) bir uçuş kodu oluşturacaktır.
+        super.reservationTicket(_name, _lastname, _ticketCount, _isBusiness); // flightNo metodu, Airlines uçuşları için PNR ile başlayan ve random sayısal değerler içeren (PNR11111 gibi) bir uçuş kodu oluşturacaktır.
         System.out.println("Bilet Numaranız: " + ticketNo);
         PegasusPassengers.add(_name + " " + _lastname + " için Oluşturulan " + super.getDate() + " Tarihli Uçuşun Bilet Numarası: " + this.ticketNo + " Uçak " + super.getTime() + " Saatinde Havalancaktır.");
     }
