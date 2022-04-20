@@ -12,7 +12,7 @@ public class Pegasus extends Airlines{
     }
 
     static List<String> PegasusPassengers = new ArrayList<>();
-    String ticketNo = super.ticketNo("N"); // THY uçuşu için bilet alan her yolcu için sonu '/N' ile biten random bir bilet numarası oluşturulacaktır.
+    String ticketNo = super.ticketNo("N"); // Pegasus uçuşu için bilet alan her yolcu için sonu '/N' ile biten random bir bilet numarası oluşturulacaktır.
 
     @Override
     public void reservationTicket(String _name, String _lastname, int _ticketCount, String _isBusiness) {
