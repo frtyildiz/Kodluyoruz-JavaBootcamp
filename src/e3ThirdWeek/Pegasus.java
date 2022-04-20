@@ -8,7 +8,7 @@ import java.util.List;
 public class Pegasus extends Airlines{
     Pegasus(String _from, String _to, int _capacity, double _fare, LocalDate _date, LocalTime _time) {
         super(_from, _to, _capacity, _fare, _date, _time);
-        super.flightNo("PNR"); // Oluşturulan her THY uçuşu için PNR ile başlayan random bir numara üretilecektir.
+        super.flightNo("PNR"); // Oluşturulan her Pegasus uçuşu için PNR ile başlayan random bir numara üretilecektir.
     }
 
     static List<String> PegasusPassengers = new ArrayList<>();
