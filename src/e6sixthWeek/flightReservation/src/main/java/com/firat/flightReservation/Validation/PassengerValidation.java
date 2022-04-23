@@ -7,11 +7,11 @@ public class PassengerValidation {
 
     public boolean checkNameFormat(String name)
     {
-        if (!org.apache.commons.lang3.StringUtils.isNumeric(name))
+        if (org.apache.commons.lang3.StringUtils.isNumeric(name))
         {
             return false;
         }
-        if (!org.apache.commons.lang3.StringUtils.isEmpty(name))
+        if (org.apache.commons.lang3.StringUtils.isEmpty(name))
         {
             return false;
         }
