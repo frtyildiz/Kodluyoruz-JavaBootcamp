@@ -5,9 +5,9 @@ import com.firat.flightReservation.entity.Flight;
 import com.firat.flightReservation.entity.Pegasus;
 import com.firat.flightReservation.entity.THY;
 import com.firat.flightReservation.repository.FlightRepository;
-import com.firat.flightReservation.requestDto.SaveFlightRequestDto;
-import com.firat.flightReservation.requestDto.UpdateFlightRequestDto;
-import com.firat.flightReservation.responseDto.FlightResponseDto;
+import com.firat.flightReservation.dto.requestDto.SaveFlightRequestDto;
+import com.firat.flightReservation.dto.requestDto.UpdateFlightRequestDto;
+import com.firat.flightReservation.dto.responseDto.FlightResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

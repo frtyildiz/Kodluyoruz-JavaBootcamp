@@ -1,8 +1,8 @@
 package com.firat.flightReservation.controller;
 
-import com.firat.flightReservation.requestDto.SaveFlightRequestDto;
-import com.firat.flightReservation.requestDto.UpdateFlightRequestDto;
-import com.firat.flightReservation.responseDto.FlightResponseDto;
+import com.firat.flightReservation.dto.requestDto.SaveFlightRequestDto;
+import com.firat.flightReservation.dto.requestDto.UpdateFlightRequestDto;
+import com.firat.flightReservation.dto.responseDto.FlightResponseDto;
 import com.firat.flightReservation.service.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -3,9 +3,9 @@ package com.firat.flightReservation.service;
 import com.firat.flightReservation.converter.PassengerConverter;
 import com.firat.flightReservation.entity.Passenger;
 import com.firat.flightReservation.repository.PassengerRepository;
-import com.firat.flightReservation.requestDto.SavePassengerRequestDto;
-import com.firat.flightReservation.requestDto.UpdatePassengerRequestDto;
-import com.firat.flightReservation.responseDto.PassengerResponseDto;
+import com.firat.flightReservation.dto.requestDto.SavePassengerRequestDto;
+import com.firat.flightReservation.dto.requestDto.UpdatePassengerRequestDto;
+import com.firat.flightReservation.dto.responseDto.PassengerResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

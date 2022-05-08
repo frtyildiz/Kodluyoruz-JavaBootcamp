@@ -3,7 +3,7 @@ package com.firat.flightReservation.converter;
 import com.firat.flightReservation.entity.Passenger;
 import com.firat.flightReservation.entity.Pegasus;
 import com.firat.flightReservation.entity.THY;
-import com.firat.flightReservation.requestDto.SavePassengerRequestDto;
+import com.firat.flightReservation.dto.requestDto.SavePassengerRequestDto;
 import org.springframework.stereotype.Component;
 
 @Component

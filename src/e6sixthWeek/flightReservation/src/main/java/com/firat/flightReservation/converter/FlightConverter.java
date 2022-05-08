@@ -2,7 +2,7 @@ package com.firat.flightReservation.converter;
 
 import com.firat.flightReservation.entity.Pegasus;
 import com.firat.flightReservation.entity.THY;
-import com.firat.flightReservation.requestDto.SaveFlightRequestDto;
+import com.firat.flightReservation.dto.requestDto.SaveFlightRequestDto;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
