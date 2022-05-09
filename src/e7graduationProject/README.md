@@ -33,6 +33,10 @@ Clone the relevant project
 git clone https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz.git
 ```
 -----
+## UML Diagram
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/LibraryManagementSystem.png">
+
+-----
 ## Some Examples of REST API Action
 
 <img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/1.png">
@@ -46,5 +50,3 @@ git clone https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz.git
 
 ## License
 MIT
-
-
