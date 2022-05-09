@@ -1,6 +1,5 @@
 package com.firat.flightReservation.controller;
 
-import com.firat.flightReservation.Validation.PassengerValidation;
 import com.firat.flightReservation.dto.requestDto.SavePassengerRequestDto;
 import com.firat.flightReservation.dto.requestDto.UpdatePassengerRequestDto;
 import com.firat.flightReservation.dto.responseDto.PassengerResponseDto;
@@ -19,23 +18,12 @@ public class PassengerController {
     @Autowired
     PassengerService passengerService;
 
-    @Autowired
-    PassengerValidation passengerValidation;
 
     @PostMapping("/saveThyPassenger")
-    public void saveThyFlight(@RequestBody SavePassengerRequestDto savePassengerRequestDto)
+    public void saveThyPassenger(@RequestBody SavePassengerRequestDto savePassengerRequestDto)
     {
         String name = savePassengerRequestDto.getName();
-        if (!passengerValidation.checkNameFormat(name))
-        {
-            System.out.println("Lütfen Adınızı Doğru Yazdığınızdan Emin Olun.");
-            return;
-        }
-        try {
-            passengerService.saveThyPassenger(savePassengerRequestDto);
-        } catch (Exception e) {
-            e.getMessage();
-        }
+        passengerService.saveThyPassenger(savePassengerRequestDto);
     }
     /*
     "name":"Fırat",
@@ -46,14 +34,10 @@ public class PassengerController {
      */
 
     @PostMapping("/savePegasusPassenger")
-    public void savePegasusFlight(@RequestBody SavePassengerRequestDto savePassengerRequestDto)
+    public void savePegasusPassenger(@RequestBody SavePassengerRequestDto savePassengerRequestDto)
     {
-        try {
-            passengerService.savePegasusPassenger(savePassengerRequestDto);
-        } catch (Exception e)
-        {
-            e.getMessage();
-        }
+        String name = savePassengerRequestDto.getName();
+        passengerService.savePegasusPassenger(savePassengerRequestDto);
     }
     /*
     "name":"Fırat",
