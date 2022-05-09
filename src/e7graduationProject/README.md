@@ -34,7 +34,7 @@ git clone https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz.git
 ```
 -----
 ## UML Diagram
-<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/LibraryManagementSystem.png">
+<img src="https://raw.githubusercontent.com/frtyildiz/Kodluyoruz-JavaBootcamp/main/src/e7graduationProject/images/LibraryManagementSystem.png">
 
 -----
 ## Some Examples of REST API Action
