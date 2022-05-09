@@ -35,14 +35,14 @@ git clone https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz.git
 -----
 ## Some Examples of REST API Action
 
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/1.png">
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/2.png">
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/3.png">
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/4.png">
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/5.png">
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/6.png">
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/7.png">
-<img src="https://github.com/DRC-JAVA-Bootcamp/bitirme-projesi-frtyildiz/blob/main/images/8.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/1.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/2.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/3.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/4.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/5.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/6.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/7.png">
+<img src="https://github.com/frtyildiz/Kodluyoruz-JavaBootcamp/blob/main/src/e7graduationProject/images/8.png">
 
 ## License
 MIT
